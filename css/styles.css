@@ -1,0 +1,202 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   Emily McIntosh
+   Date:   Fall 2023  
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: gray;
+}
+
+#container {
+    width: 1060px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: #123863;
+}
+
+
+header {
+    width: 910px;	/* reduced by 20px to accommodate shadow */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+ 
+    border-radius: 25px;  	
+}
+
+h3 {
+	font-weight: bold;
+	color: white;
+	font-size:2.2em;
+}
+
+
+nav {
+    width: 300px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+	font-size:2.2em;
+}
+h1 { 
+color:Gray;
+font-size:1.5em;
+padding-top:.5em;
+padding-bottom: .5em;
+}
+nav p{
+	color: gray;
+	padding-top: 40px;
+	font-size: .65em;
+	
+}
+nav img{
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+	height: 70px;
+	width: 70px;
+}
+
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+	font-size: 1em;
+	
+}
+
+nav ul li a {
+    padding: 20px;
+    color: gray;
+    text-decoration: none;
+    display:block;
+}
+
+nav ul li a:hover {
+    background: gray;
+    border-radius: 10px;
+    color: white;
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: gray;
+    border-left: 2px solid;
+    border-right: 2px solid;    
+   
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+
+#main img{
+	
+}
+
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+	font-size: .75em;
+	padding-bottom: 2em;
+	
+}
+
+figure{
+	padding-top: 10px;
+	text-align: center;
+}
+
+aside {
+    width: 185px;
+    margin: 0 5px 0 5px;
+    padding: 20px;
+    float: right;
+	
+}
+aside img{
+	padding-top: 10px;
+	text-align: center;
+}
+aside p {
+    font-style: italic;
+    font-size: 0.9em;
+	color: gray;
+}
+
+
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+	
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: .5em;
+    padding-top: .5em;
+	color: gray;
+	font-size: 4em;
+	font-weight: bold;
+	
+}
+
+footer {
+    width: 942px;
+    margin: 0;
+    padding: 50px;
+    background-color: gray;
+    clear: both;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	
+}
+
+#wrapper {
+    width: 1042px;
+    margin-bottom: 10px;
+    border: 8px solid;
+    border-radius: 20px;
+	
+}/* navigation for footer */
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: navy;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
